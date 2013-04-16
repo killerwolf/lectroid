@@ -1,0 +1,19 @@
+.container-narrow{
+    max-width:990px;
+}
+
+@media (max-width: 480px) { 
+    body{
+        margin:0 auto;
+        padding: 0 2px;
+    }    
+    
+}
+
+div#header img{
+    margin-bottom:15px;
+}
+
+div#header .nav{
+    margin-bottom:0;
+}
