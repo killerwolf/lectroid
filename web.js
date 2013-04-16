@@ -23,13 +23,13 @@ swig.init({
     allowErrors: true,
     cache      : app.enabled('view cache'),
     filters    : require('./lib/filters')(app),
-    root       : __dirname + '/views'
+    root       : __dirname + '/views/' + app.get('design')
 });
 
 app.engine('swig', consolidate.swig);
 
 app.set('view engine', 'swig');
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/views/' + app.get('design') );
 app.set('view options', {layout: false});
 
 // Make the year available to all templates.
