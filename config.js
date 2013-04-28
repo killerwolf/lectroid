@@ -3,7 +3,7 @@
 module.exports = function (app) {
 
     // Name of this blog.
-    app.set('siteName', 'h4mdi.fr');
+    app.set('siteName', 'h4md1.fr');
 
     // Absolute base URL for this site.
     app.set('siteUrl', 'http://localhost:5000/');
@@ -27,7 +27,7 @@ module.exports = function (app) {
     if (app.get('env') === 'production') {
 
         // Absolute base URL for this site.
-        app.set('siteUrl', 'http://www.laadhari.fr/');
+        app.set('siteUrl', 'http://www.h4md1.fr/');
 
     }
 

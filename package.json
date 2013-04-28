@@ -1,23 +1,26 @@
 {
     "name": "h4md1_fr",
-    "version": "0.0.1",
+    "subdomain": "h4md1",
+    "domains": [
+        "www.h4md1.fr",
+        "h4md1.fr"
+    ],
+    "version": "0.0.1-5",
     "scripts": {
-        "start": "node web.js"
+        "start": "web.js"
     },
     "engines": {
         "node": ">=0.8.0"
     },
-
     "dependencies": {
-        "async"      : "0.1.22",
+        "async": "0.1.22",
         "consolidate": "0.5.0",
-        "express"    : "3.0.3",
-        "glob"       : "3.1.12",
-        "js-yaml"    : "1.0.3",
-        "marked"     : "0.2.6",
-        "swig"       : "0.13.3",
-        "underscore" : "1.4.3"
+        "express": "3.0.3",
+        "glob": "3.1.12",
+        "js-yaml": "1.0.3",
+        "marked": "0.2.6",
+        "swig": "0.13.3",
+        "underscore": "1.4.3"
     },
-
     "private": true
 }
