@@ -11,8 +11,6 @@ pourquoi nous avons le plaisir de la lire.
 
 Question bonus: L’enfer est il exothermique (évacue de la chaleur) ou endothermique ( absorbe de la chaleur) ? La plupart des étudiants ont exprimé leur croyance en utilisant la loi de Boyle (si un gaz se dilate il se refroidit et inversement) ou ses variantes. Cependant un étudiant eut la réponse suivante:
 
-<script src="https://gist.github.com/killerwolf/4246243.js"></script>
-
 Premièrement, nous avons besoin de connaître comment varie la masse de l’enfer avec le temps. Nous avons donc besoin de connaître à quel taux les âmes entrent et sortent de l’enfer. Je pense que nous pouvons sans risque assumer qu’une fois entrée en enfer, l’âme n’y ressortira plus. Du coup, aucune âme ne sort. De même pour le calcul du nombre d’entrée des âmes en enfer, nous devons regarder le fonctionnement des différentes religions qui existent de par le monde aujourd’hui. La plupart de ces religions affirment que si vous n’êtes pas un membre de leur religion alors vous irez en enfer.
 Comme il existe plus d’une religion exprimant cette règle et comme les gens n’appartiennent pas a plus d’une religion, nous pouvons projeter que toutes les âmes vont en enfer. Maintenant regardons la vitesse de changement de volume de l’enfer parce que la loi de Boyle spécifie que pour que la pression et la température reste identique en enfer, le volume de l’enfer doit se dilater proportionnellement à l’entrée des âmes.
 
