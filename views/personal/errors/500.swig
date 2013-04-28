@@ -3,7 +3,7 @@
 {% block title %}Internal Server Error - {{settings.siteName}}{% endblock %}
 
 {% block pageBody %}
-    <h1>500 Internal Server Error</h1>
+    <h2>500 Internal Server Error</h2>
 
     <p>
     Well, shit. This wasn't supposed to happen.

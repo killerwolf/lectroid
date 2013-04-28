@@ -4,7 +4,7 @@
     Posts tagged with &ldquo;{{tag}}&rdquo; - {{settings.siteName}}
 {% endblock %}
 
-{% block pageBody %}
+{% block pageContent %}
     <h1>Posts tagged with &ldquo;{{tag}}&rdquo;</h1>
 
     {% include "partials/pagination-stats.swig" %}

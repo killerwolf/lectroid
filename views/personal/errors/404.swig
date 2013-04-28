@@ -3,7 +3,7 @@
 {% block title %}Not Found - {{settings.siteName}}{% endblock %}
 
 {% block pageBody %}
-    <h1>404 Not Found</h1>
+    <h2>404 Not Found</h2>
 
     <p>
     The URL <code>{{url}}</code> was not found on this server.

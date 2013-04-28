@@ -31,7 +31,6 @@
 
             <link rel="alternate" type="application/rss+xml" href="/rss">
         {% endblock %}
-
     </head>
     <body>
             <!--[if lt IE 7]>
@@ -53,18 +52,20 @@
             </script>
             
             {% block body %}
-                <div class="container container-narrow">
+                <div class="container-fluid container-narrow">
                     {% block pageHeader %}
                         {% include "partials/page-header.swig" %}
                     {% endblock %}
             
                     <div class="row-fluid">
                         <div class="span9">
-                        {% block pageBody %}{% endblock %}
+                            {% block pageContent %}{% endblock %}
                         </div>
+                        
                         <div class="span3">
-                            <h2>SideBar</h2>
-                            this is a placeholder for the sidebar
+                            {% block pageSidebar %}
+                                {% include "partials/page-sidebar.swig" %}
+                            {% endblock %}
                         </div>
                     </div>
             
@@ -75,7 +76,31 @@
                     {% include "partials/author.swig" %}
                 </div>
             
-                {% block js %}{% endblock %}
+                {% block js %}
+                <script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-40515203-1', 'h4md1.fr');
+                      ga('send', 'pageview');
+
+                </script>
+                
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'h4md1'; // required: replace example with your forum shortname
+                    
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                    var s = document.createElement('script'); s.async = true;
+                    s.type = 'text/javascript';
+                    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                    }());
+                </script>
+                {% endblock %}
             {% endblock %}
     </body>
 </html>

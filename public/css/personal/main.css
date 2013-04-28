@@ -1,19 +1,81 @@
-.container-narrow{
-    max-width:990px;
-}
-
 @media (max-width: 480px) { 
     body{
         margin:0 auto;
         padding: 0 2px;
-    }    
-    
+        font-size:12px;
+    }
+    .nav-pills>li>a{
+        padding-right:4px;
+        padding-left:4px;
+    }
+    h1{
+        font-size:28.5px;
+    }
+    h2{
+        font-size:21.5px;
+    }
+    h3{
+        font-size:14.5px;
+    }
 }
 
-div#header img{
+.container-narrow{
+    max-width:990px;
+    margin:0 auto;
+}
+
+#header img{
     margin-bottom:15px;
 }
 
-div#header .nav{
+#social-icon{
+    margin:10px 0;
+}
+
+.post{
+    border-bottom: solid 1px #ccc;
+}
+
+.post header{
+    margin-bottom:15px;
+}
+
+.post header h2{
     margin-bottom:0;
+}
+
+.post .entry-content{
+    text-align:justify;
+}
+
+ul.tags{
+    list-style:none;
+    margin:10px 0 0 10px;
+}
+
+ul.tags li{
+    float:left;
+    margin-right:10px;
+}
+
+.thumbnail{
+    margin: 10px 10px 10px 0;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

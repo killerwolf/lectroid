@@ -1,24 +1,28 @@
 {% if pagination %}
-    <div class="pg">
+    <div class="pagination pagination-centered">
+    <ul>
         {% if pagination.prevUrl %}
-            <a rel="prev" class="prev" href="{{pagination.prevUrl}}">
-                {{pagination.labelPrev|raw}}
-            </a>
+            <li class="previous">
+                <a rel="prev" href="{{pagination.prevUrl}}">
+                    {{pagination.labelPrev|raw}}
+                </a>
+            </li>
         {% endif %}
 
         {# TODO: figure out why the number of pages seems to increase after reloading in dev mode #}
         {% for page in pagination.navigation %}
             {% if page.isCurrentPage %}
-                <strong>{{page.page}}</strong>
+                <li class="active"><span>{{page.page}}</span></li>
             {% else %}
-                <a href="{{page.url}}">{{page.page}}</a>
+                <li><a href="{{page.url}}">{{page.page}}</a></li>
             {% endif %}
         {% endfor %}
 
         {% if pagination.nextUrl %}
-            <a rel="next" class="next" href="{{pagination.nextUrl}}">
+            <li class="next"><a rel="next" class="next" href="{{pagination.nextUrl}}">
                 {{pagination.labelNext|raw}}
-            </a>
+            </a></li>
         {% endif %}
+    </ul>
     </div>
 {% endif %}

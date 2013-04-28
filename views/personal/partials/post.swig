@@ -1,25 +1,29 @@
-<article id="post-{{slug}}" class="post hentry content{% if imported %} imported{% endif %}">
-    <header class="hd">
-        <h1 class="title entry-title">
+<article id="post-{{slug}}" class="post">
+    <header>
+        <h2>
             <a href="{{url}}" rel="bookmark">{{title}}</a>
-        </h1>
+        </h2>
 
-        <time class="date published" datetime="{{date}}" pubdate>
-            <a href="{{url}}" rel="bookmark">{{date|date("Y-m-d")}}</a>
-        </time>
+        <time class="date published" datetime="{{date}}" pubdate>{{date|date("Y-m-d")}}</time>
+         - 
+        <a href="{{url}}#disqus_thread" rel="comment">{{date|date("Y-m-d")}}</a>
+        
     </header>
 
-    <div class="bd entry-content">
+    <div class="entry-content">
         {{html|raw}}
     </div>
 
-    <footer class="ft meta">
+    <footer class="ft meta clearfix">
         {% if tags.length %}
-            <ul class="tags">
+            <h5 class="pull-left">Tags:</h5>
+            <ul class="tags pull-left">
                 {% for tag in tags %}
-                    <li class="tag"><a href="{{tag|tagUrl}}" rel="tag">{{tag}}</a></li>
+                    <li><a href="{{tag|tagUrl}}" rel="tag">{{tag}}</a></li>
                 {% endfor %}
             </ul>
         {% endif %}
     </footer>
+
+
 </article>

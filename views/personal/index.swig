@@ -1,6 +1,6 @@
 {% extends "layouts/default.swig" %}
 
-{% block pageBody %}
+{% block pageContent %}
     {% if pagination %}
         {% if pagination.page > 1 %}
             <h1 class="special">Older posts</h1>
