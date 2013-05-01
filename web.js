@@ -90,7 +90,8 @@ app.get('/', function (req, res, next) {
 
         res.render('index', {
             pagination: pagination,
-            posts     : posts
+            posts     : posts,
+            page      : {slug: 'home'}
         });
     });
 });

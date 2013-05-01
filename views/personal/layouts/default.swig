@@ -30,6 +30,7 @@
             <script src="/vendor/js/modernizr-2.6.2.min.js"></script>
 
             <link rel="alternate" type="application/rss+xml" href="/rss">
+            <meta name="google-site-verification" content="iSBUlB7fQE_Oyk0XhBE1fhxliBEBR-zxGM2yDZ5GoqI" />
         {% endblock %}
     </head>
     <body>

@@ -43,18 +43,18 @@
                 </a>
             
                 <ul class="nav visible-tablet">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/page/cv">CV</a></li>
-                    <li><a href="/page/about">About</a></li>
-                    <li><a href="/page/contact">Contact</a></li>
+                    <li{% if page && page.slug == 'home' %} class="active"{% endif %}><a href="/">Home</a></li>
+                    <li{% if page && page.slug == 'cv' %} class="active"{% endif %}><a href="/page/cv">CV</a></li>
+                    <li{% if page && page.slug == 'about' %} class="active"{% endif %}><a href="/page/about">About</a></li>
+                    <li{% if page && page.slug == 'contact' %} class="active"{% endif %}><a href="/page/contact">Contact</a></li>
                 </ul>
                 
                 <div class="nav-collapse collapse text-center">
                     <ul class="nav">
-                        <li class="active"><a href="/">Home</a></li>
-                        <li><a href="/page/cv">CV</a></li>
-                        <li><a href="/page/about">About</a></li>
-                        <li><a href="/page/contact">Contact</a></li>
+                        <li{% if page && page.slug == 'home' %} class="active"{% endif %}><a href="/">Home</a></li>
+                        <li{% if page && page.slug == 'cv' %} class="active"{% endif %}><a href="/page/cv">CV</a></li>
+                        <li{% if page && page.slug == 'about' %} class="active"{% endif %}><a href="/page/about">About</a></li>
+                        <li{% if page && page.slug == 'contact' %} class="active"{% endif %}><a href="/page/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
