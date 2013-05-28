@@ -5,7 +5,7 @@
         "www.h4md1.fr",
         "h4md1.fr"
     ],
-    "version": "0.0.1-5",
+    "version": "0.0.1-11",
     "scripts": {
         "start": "web.js"
     },
@@ -13,6 +13,7 @@
         "node": ">=0.8.0"
     },
     "dependencies": {
+        "nodefly": "stable",
         "async": "0.1.22",
         "consolidate": "0.5.0",
         "express": "3.0.3",
