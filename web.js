@@ -1,11 +1,5 @@
 #!/usr/bin/env node
 
-// -- Node fly -----------------------------------------------------------------
-require('nodefly').profile(
-    'ab82ca81-517b-46e5-a8cf-7fc1c84f7bf7',
-    'blog', process.env.SUBDOMAIN
-);
-
 // -- Node modules -------------------------------------------------------------
 var fs = require('fs');
 
