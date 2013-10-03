@@ -269,7 +269,8 @@ app.use(function (err, req, res, next) {
 });
 
 // -- Server -------------------------------------------------------------------
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT;
+var port = port|| 3000;
 
 app.listen(port, function () {
     console.log('Listening on port ' + port);
