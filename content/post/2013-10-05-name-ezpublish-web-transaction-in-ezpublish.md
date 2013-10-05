@@ -11,6 +11,6 @@ When using **NewRelic PHP agent** with an eZ Publish stack. the profiled transac
 
 **NewRelic** provides a self explanatory [**PHP API**](https://docs.newrelic.com/docs/php/the-php-api). This API lets you send additional metrics/data along by the ones the agent already gathers.
 
-The eZ Publish extension [**ezpublish-newrelic**]() I wrote allows you to track modules and theires views under a separate transaction name. 
+The eZ Publish extension [**ezpublish-newrelic**](https://github.com/killerwolf/ezpublish-newrelic) I wrote allows you to track modules and theires views under a separate transaction name. 
 
 Code source is hosted on [GitHub](https://github.com/killerwolf/ezpublish-newrelic) and is available for install on [**Packagist**](https://packagist.org/packages/killerwolf/ezpublish-newrelic) via **Composer**, feel free to contribute.
