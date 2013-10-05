@@ -6,7 +6,7 @@ module.exports = function (app) {
     app.set('siteName', 'h4md1.fr');
 
     // Absolute base URL for this site.
-    app.set('siteUrl', 'http://localhost:5000/');
+    app.set('siteUrl', 'http://www.h4md1.fr/');
 
     // Name of this blog's author.
     app.set('author', 'Hamdi LAADHARI');
