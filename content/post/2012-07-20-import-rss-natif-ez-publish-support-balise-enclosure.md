@@ -1,7 +1,7 @@
 ---
 title: L’import RSS natif d’eZ Publish avec support de la balise enclosure
 tags:
-- eZ Publish
+- ezpublish
 - php5
 ---
 <img class="thumbnail pull-left" src="/img/personal/posts/ezpublish_media_import_rss-150x150.jpg" />
