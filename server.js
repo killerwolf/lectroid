@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// -- New Relic ----------------------------------------------------------------
+require('newrelic-config')
+  .key(process.env.NEWRELIC_KEY)
+  .name('h4md1')
+  .profile();
 
 // -- Node modules -------------------------------------------------------------
 var fs = require('fs');
@@ -270,7 +275,7 @@ app.use(function (err, req, res, next) {
 
 // -- Server -------------------------------------------------------------------
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT;
-var port = port|| 3000;
+var port = port|| 8080;
 
 var domain = process.env.OPENSHIFT_NODEJS_IP || "0.0.0.0"
 
