@@ -1,113 +1,170 @@
 {
-  "name": "lectroid",
-  "version": "0.0.1",
+  "name": "h4md1_fr",
+  "version": "1.0.0",
   "dependencies": {
     "async": {
-      "version": "0.1.22"
+      "version": "0.1.22",
+      "from": "async@0.1.22"
+    },
+    "newrelic-config": {
+      "version": "0.0.1",
+      "from": "newrelic-config@0.0.1",
+      "dependencies": {
+        "newrelic": {
+          "version": "0.9.22",
+          "from": "newrelic@~0.9.20",
+          "dependencies": {
+            "bunyan": {
+              "version": "0.14.6",
+              "from": "bunyan@~0.14.0"
+            }
+          }
+        }
+      }
     },
     "consolidate": {
-      "version": "0.5.0"
+      "version": "0.5.0",
+      "from": "consolidate@0.5.0"
     },
     "express": {
       "version": "3.0.3",
+      "from": "express@3.0.3",
       "dependencies": {
         "connect": {
           "version": "2.7.0",
+          "from": "connect@2.7.0",
           "dependencies": {
             "qs": {
-              "version": "0.5.1"
+              "version": "0.5.1",
+              "from": "qs@0.5.1"
             },
             "formidable": {
-              "version": "1.0.11"
+              "version": "1.0.11",
+              "from": "formidable@1.0.11"
             },
             "bytes": {
-              "version": "0.1.0"
+              "version": "0.1.0",
+              "from": "bytes@0.1.0"
             },
             "pause": {
-              "version": "0.0.1"
+              "version": "0.0.1",
+              "from": "pause@0.0.1"
             }
           }
         },
         "commander": {
-          "version": "0.6.1"
+          "version": "0.6.1",
+          "from": "commander@0.6.1"
         },
         "range-parser": {
-          "version": "0.0.4"
+          "version": "0.0.4",
+          "from": "range-parser@0.0.4"
         },
         "mkdirp": {
-          "version": "0.3.3"
+          "version": "0.3.3",
+          "from": "mkdirp@0.3.3"
         },
         "cookie": {
-          "version": "0.0.5"
+          "version": "0.0.5",
+          "from": "cookie@0.0.5"
         },
         "crc": {
-          "version": "0.2.0"
+          "version": "0.2.0",
+          "from": "crc@0.2.0"
         },
         "fresh": {
-          "version": "0.1.0"
+          "version": "0.1.0",
+          "from": "fresh@0.1.0"
         },
         "methods": {
-          "version": "0.0.1"
+          "version": "0.0.1",
+          "from": "methods@0.0.1"
         },
         "send": {
           "version": "0.1.0",
+          "from": "send@0.1.0",
           "dependencies": {
             "mime": {
-              "version": "1.2.6"
+              "version": "1.2.6",
+              "from": "mime@1.2.6"
             }
           }
         },
         "cookie-signature": {
-          "version": "0.0.1"
+          "version": "0.0.1",
+          "from": "cookie-signature@0.0.1"
         },
         "debug": {
-          "version": "0.7.2"
+          "version": "0.7.2",
+          "from": "debug@0.7.2"
         }
       }
     },
     "glob": {
       "version": "3.1.12",
+      "from": "glob@3.1.12",
       "dependencies": {
         "minimatch": {
-          "version": "0.2.11",
+          "version": "0.2.12",
+          "from": "minimatch@0.2.12",
           "dependencies": {
             "lru-cache": {
-              "version": "2.3.0"
+              "version": "2.3.1",
+              "from": "lru-cache@2"
             },
             "sigmund": {
-              "version": "1.0.0"
+              "version": "1.0.0",
+              "from": "sigmund@~1.0.0"
             }
           }
         },
         "graceful-fs": {
-          "version": "1.1.14"
+          "version": "1.1.14",
+          "from": "graceful-fs@1.1.14"
         },
         "inherits": {
-          "version": "1.0.0"
+          "version": "1.0.0",
+          "from": "inherits@1.0.0"
         }
       }
     },
     "js-yaml": {
       "version": "1.0.3",
+      "from": "js-yaml@1.0.3",
       "dependencies": {
         "argparse": {
-          "version": "0.1.12",
+          "version": "0.1.15",
+          "from": "argparse@0.1.15",
           "dependencies": {
+            "underscore": {
+              "version": "1.4.4",
+              "from": "underscore@~1.4.3"
+            },
             "underscore.string": {
-              "version": "2.3.1"
+              "version": "2.3.3",
+              "from": "underscore.string@~2.3.1"
             }
           }
         }
       }
     },
     "marked": {
-      "version": "0.2.6"
+      "version": "0.2.6",
+      "from": "marked@0.2.6"
     },
     "swig": {
-      "version": "0.13.3"
+      "version": "0.13.3",
+      "from": "swig@0.13.3",
+      "dependencies": {
+        "underscore": {
+          "version": "1.5.2",
+          "from": "underscore@1.5.2"
+        }
+      }
     },
     "underscore": {
-      "version": "1.4.3"
+      "version": "1.4.3",
+      "from": "underscore@1.4.3"
     }
   }
 }
