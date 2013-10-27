@@ -20,6 +20,12 @@
                 </a>
             </li>
             <li>
+                <a href="https://plus.google.com/116743009329723208522?rel=author">
+                    <i class="icon-google-plus icon-2x"></i>
+                    <span class="hidden-phone">Google+<span>
+                </a>
+            </li>
+            <li>
                 <a href="https://github.com/killerwolf">
                     <i class="icon-github icon-2x"></i>
                     <span class="hidden-phone">GitHub<span>

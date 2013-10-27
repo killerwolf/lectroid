@@ -31,6 +31,10 @@
 #social-icon{
     margin:10px 0;
 }
+#social-icon a{
+  padding-top:6px;
+  padding-right:6px;
+}
 
 .post{
     border-bottom: solid 1px #ccc;
