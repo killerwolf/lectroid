@@ -18,6 +18,18 @@
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width">
 
+            <script>
+            var _prum = [['id', '5344e449abe53df94060dbc1'],
+                         ['mark', 'firstbyte', (new Date()).getTime()]];
+            (function() {
+                var s = document.getElementsByTagName('script')[0]
+                  , p = document.createElement('script');
+                p.async = 'async';
+                p.src = '//rum-static.pingdom.net/prum.min.js';
+                s.parentNode.insertBefore(p, s);
+            })();
+            </script>
+    
             <link rel="stylesheet" href="/vendor/css/normalize.min.css">
             <link rel="stylesheet" href="/vendor/css/h5bp.css">
             <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
