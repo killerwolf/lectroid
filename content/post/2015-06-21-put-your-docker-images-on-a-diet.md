@@ -4,7 +4,7 @@ tags:
 - alpine
 - docker
 ---
-
+<img class="thumbnail" src="/img/personal/posts/2015/Docker_(container_engine)_logo.png" />
 When running `docker images` you'll see the following, images weigthing several hundred of MBs. Even simple container, providing one singe service are heavy. Why ? Because base images used, such as Ubuntu, Centos and Debian images are themselves very heavy.
 
 Images based on busybox could have been an alternative, but is too far from full-featured linux OSses, we're used to. And building images from busybox aren't straigforward, and often requires compilation from source.
